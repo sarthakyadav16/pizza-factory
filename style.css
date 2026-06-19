@@ -1,0 +1,99 @@
+/* Reset default browser spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+
+/* Header */
+header {
+  background: linear-gradient(90deg, #ff512f, #dd2476);
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+header h1 {
+  font-size: 32px;
+}
+
+header p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* Container (MAIN FIX) */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 40px;
+}
+
+/* Card design */
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect */
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Image inside card */
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Title */
+.card h2 {
+  margin: 12px 0 5px;
+}
+
+/* Description */
+.card p {
+  color: gray;
+  font-size: 14px;
+}
+
+/* Button */
+button {
+  background: #ff512f;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  margin-top: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* Button hover */
+button:hover {
+  background: #dd2476;
+}
+
+/* Result text */
+#result {
+  text-align: center;
+  margin: 20px;
+  font-size: 18px;
+  color: #fff;
+}

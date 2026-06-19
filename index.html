@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pizza Factory 🍕</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <header>
+    <h1>🍕 Pizza Factory</h1>
+    <p>Delicious pizzas delivered fast 🚀</p>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+      <img src="images/margherita.jpg">
+      <h2>Margherita</h2>
+      <p>Classic cheese delight</p>
+      <button onclick="order('Margherita')">Order Now</button>
+    </div>
+
+    <div class="card">
+      <img src="images/pepperoni.jpg">
+      <h2>Pepperoni</h2>
+      <p>Loaded with spicy pepperoni</p>
+      <button onclick="order('Pepperoni')">Order Now</button>
+    </div>
+
+    <div class="card">
+      <img src="images/veggie.jpg">
+      <h2>Veggie</h2>
+      <p>Fresh vegetables & cheese</p>
+      <button onclick="order('Veggie')">Order Now</button>
+    </div>
+
+  </div>
+
+  <h2 id="result"></h2>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
